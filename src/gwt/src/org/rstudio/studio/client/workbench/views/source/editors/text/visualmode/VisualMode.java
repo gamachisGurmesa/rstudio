@@ -656,6 +656,10 @@ public class VisualMode implements VisualModeEditorSync,
       return panmirror_.getCommandPaletteItems();
    }
 
+   public void focus()
+   {
+      panmirror_.focus();
+   }
    
    private void manageUI(boolean activate, boolean focus)
    {
